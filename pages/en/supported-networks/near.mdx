@@ -84,7 +84,7 @@ dataSources:
 - NEAR data sources introduce an optional `source.account` field, which is a human-readable ID corresponding to a [NEAR account](https://docs.near.org/docs/concepts/account). This can be an account or a sub-account.
 - NEAR data sources introduce an optional `source.accounts` field, which contains optional suffixes and prefixes.
 At least prefix or suffix must be specified, they will match the any account starting or ending with the list of values respectively. 
-For the provided example it would match: [app|good].*[morning.near|morning.testnet]. If only a list of prefixes or suffixes is necessary
+For the provided example it would match: `[app|good].*[morning.near|morning.testnet]`. If only a list of prefixes or suffixes is necessary
 the other field can be omitted.
 
 NEAR data sources support two types of handlers:
